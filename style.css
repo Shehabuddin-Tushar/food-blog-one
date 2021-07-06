@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* first second part start*/
+.container{
+    display: flex;
+    padding: 20px;
+    height: 20%;
+    position: relative;
+   
+}
+.first-text-div{
+    width: 55%;
+    margin-left: 80px;
+    
+}
+.first-img-div{
+    width:55%;
+   margin-left: 50px;
+}
+.first-img-div img{
+    width: 80%;
+}
+.first-text-div h1 span.healthy{
+    
+    background: linear-gradient(to right, #0999f8,#A5D4EE);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.first-text-div h1{
+    
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 80px;
+    color:rgb(90, 88, 88)
+   
+}
+h1::first-letter {
+    font-size: 50px;
+}
+
+
+.first-text-div p{
+   word-spacing: 3px;
+   line-height: 30px;
+   text-align: justify;
+   color:gray
+}
+.container a{
+    background-image: linear-gradient(to right, #0999f8,#A5D4EE);
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 40px;
+    color:#fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+.container.bg-add{
+    background-image:url(images/second-background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    margin-bottom: 10px;
+   
+}
+.container #aboutimg{
+
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+}
+/* first second part end*/
+
+
+/* my  recipie part start*/
+
+.my-recipie-part{
+
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+}
+.my-recipie-part h1{
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #0999f8,#A5D4EE);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    min-height: 40px;
+}
+
+/* my  recipie part end*/
+
+/*recipi card part start*/
+
+.card-div-part{
+    width: 33%;
+    margin-left: 50px;
+    box-shadow: 10px 10px 40px grey;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card-div-part img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.card-div-part h2{
+    
+    background: linear-gradient(to right, #0999f8,#A5D4EE);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 2px;
+}
+.card-div-part p{
+    line-height: 25px;
+}
+
+/*recipi card part end*/
+
+/*contact-social-section start*/
+.social{
+    display: flex;
+    padding:50px;
+    background-image: url(images/social-background.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+   
+}
+.contact-social-section{
+
+    width: 25%;
+}
+.contact-social-section h2{
+    color:rgb(90, 88, 88) ;
+ 
+}
+
+.contact-social-section  li{
+    
+ list-style-type: none;
+}
+
+.contact-social-section  li a{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    color:rgb(112, 109, 109);
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.contact-social-section img{
+
+    width: 50px;
+    display: inline;
+}
+
+.contact-social-section input[type="text"],[type="email"]{
+    width:80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border:none;
+    font-size:15px
+}
+
+.contact-social-section input[type="submit"]{
+    width:100px;
+    display: block;
+    padding: 8px;
+    margin-bottom: 20px;
+    border:none;
+    font-size:18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*contact-social-section end*/
+
+/*footer section start*/
+
+.bg-footer{
+    background-color: #000;
+    
+}
+.myfooter{
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    display: inline-block;
+    
+}
+.myfooter span{
+
+    background: linear-gradient(to right, #0999f8,#A5D4EE);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+
+}
+.myfooter h1{
+    font-size: 38px;
+    
+}
+.myfooter p{
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+/*footer section end*/
+  
+  
